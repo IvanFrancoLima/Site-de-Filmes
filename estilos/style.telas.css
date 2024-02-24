@@ -1,4 +1,13 @@
 @media screen and (max-width:975px){
+
+    nav{
+        padding: 0;
+    }
+    
+    nav a{
+        display: block;
+    }
+
     main{
         flex-flow: column wrap;
     }
@@ -9,5 +18,9 @@
 
     div#pesquisar{
         margin-top: 15px;
+    }
+
+    .informações p{
+        font-size: 15px;
     }
 }
