@@ -1,0 +1,13 @@
+@media screen and (max-width:975px){
+    main{
+        flex-flow: column wrap;
+    }
+
+    section#bloco_central{
+        padding: 0;
+    }
+
+    div#pesquisar{
+        margin-top: 15px;
+    }
+}

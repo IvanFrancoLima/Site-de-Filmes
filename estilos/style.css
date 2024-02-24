@@ -21,7 +21,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: black url(imagens/banner.jpeg) no-repeat center/cover scroll;
+    background: black url(../imagens/banner.jpeg) no-repeat center/cover scroll;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.247);
     width: 100%;
     max-width: 1200px;
