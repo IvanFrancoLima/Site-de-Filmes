@@ -5,6 +5,8 @@ function tamanho_tela(){
     if(window.innerWidth>=970){
         icone.style.display='none';
         menu.style.display='block'
+    }else{
+        icone.style.display='block';
     }
 }
 
