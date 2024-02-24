@@ -39,7 +39,7 @@ nav{
     max-width: 1200px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.247);
     background-color: rgb(0, 0, 0);
-    padding: 5px 5px 5px 0 ;
+    padding: 8px 8px 8px 0 ;
     text-align: left;
 }
 
@@ -48,7 +48,7 @@ nav a{
     background-color: rgb(0, 0, 0);
     color: white;
     height: 100%;
-    padding: 5px 20px;
+    padding: 8px 20px;
     text-decoration: none;
     text-align: center;
 }
@@ -141,10 +141,6 @@ section#bloco_central{
     padding: 1em;
 }
 
-div#pesquisar{
-    transform: translateY(-29%);
-}
-
 div#pesquisar input[type="text"]{
     width: 100%;
     max-width: 300px;
@@ -160,6 +156,10 @@ div#pesquisar input[type="submit"]{
     background-color: black;
     color: white;
     cursor: pointer;
+}
+
+#bloco_central .caixas{
+    transform: translateY(-15.2px);
 }
 
 .filmes h1{
