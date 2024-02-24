@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Filmes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>SuperFilmesBrasil.com</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Gênero</a>
+        <a href="#">Áudio</a>
+        <a href="#">Filmes</a>
+        <a href="#">Lançamentos</a>
+    </nav>
+
+    <main>
+        <section id="bloco1">
+            <div id="alerta" class="caixas">
+                <h1><strong>[ATENÇÃO]</strong></h1>
+                <p>Pedimos que favorite nosso Site, aperte CTRL+D ou clique na estrela do seu navegador. Pois o Google está retirando sites de torrent da pesquisa!</p>
+                <p><span>OBS:</span> Por enquanto é isso, bom download a todos!</p>
+            </div>
+
+            <div id="blog" class="caixas">
+                <h1>Assinar blog por e-mail</h1>
+                <p>Digite seu endereço de e-mail para assinar este blog e receber notificações de novas publicações por e-mail.</p>
+                <form action="blog.php" method="get">
+                    <input type="email" name="email_" id="email" placeholder="Endereço de Email">
+                    <input type="submit" value="Assinar">
+                </form>
+            </div>
+        </section>
+
+        <section id="bloco_central">
+            <div class="caixas" id="pesquisar">
+                <form action="pesquisa.php" method="get">
+                    <input type="text" name="pesquisa_" id="pesquisa" maxlength="40" placeholder="Pesquisar..." required>
+                    <input type="submit" value="Pesquisar">
+                </form>
+            </div>
+            
+            <div class="filmes" class="caixas">
+                <h1>As Marvels Torrent – WEB-DL 720p | 1080p Dual Áudio / Dublado (2023)</h1>
+                <a href="#">Fevereiro 9,24</a>
+                <a href="#">Comments</a>
+            </div>
+        </section>
+
+        <section id="bloco2">
+            <div id="popular_posts" class="caixas">
+                <h1>Popular Posts</h1>
+                <div class="banners">
+                    <p>Filme</p>
+                </div>
+                <hr>
+
+                <div class="banners">
+                    <p>Filme</p>
+                </div>
+                <hr>
+
+                <div class="banners">
+                    <p>Filme</p>
+                </div>
+                <hr>
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>

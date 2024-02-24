@@ -1,0 +1,169 @@
+@charset "UTF-8";
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #505050;
+    height: 100vh;
+    width: 100vw;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(48, 48, 48);
+    width: 100%;
+    max-width: 1200px;
+    height: 200px;
+    margin: auto;
+}
+
+header h1{
+    color: white;
+}
+
+nav{
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
+    background-color: rgb(0, 0, 0);
+    padding: 5px 5px 5px 0 ;
+    text-align: left;
+}
+
+nav a{
+    border-right: 1px solid rgba(255, 255, 255, 0.137);
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 100%;
+    padding: 5px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover{
+    background-color: white;
+    color: black;
+}
+
+main{
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+    padding: 0.5em;
+    width: 100%;
+    max-width: 1200px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.247);
+    background-color: #F5F5F5;
+}
+
+section#bloco1{
+    flex: 20%;
+}
+
+.caixas{
+    padding: 0.5em;
+    border: 1px solid rgba(0, 0, 0, 0.61);
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.541);
+    margin-bottom: 12px;
+}
+
+input{
+    margin: 5px 0;
+}
+
+div#alerta h1{
+    text-align: center;
+    font-size: 1em;
+    color: red;
+    padding-bottom: 5px;
+}
+
+div#alerta p{
+    text-align: center;
+    font-size: 0.9em;
+    padding-bottom: 5px;
+    color: rgba(112, 107, 107, 0.986);
+}
+
+div#alerta span{
+    color: red;
+}
+
+div#blog h1{
+    text-align: center;
+    font-size: 1em;
+    background-color: black;
+    color: white;
+    outline: 0.5em solid black;
+    margin-bottom: 1em;
+}
+
+div#blog p{
+    text-align: left;
+    line-height: 1.5em;
+    font-size: 0.9em;
+    color: rgba(112, 107, 107, 0.986);
+}
+
+div#blog input[type="submit"]{
+    padding: 0 5px;
+}
+
+section#bloco_central{
+    flex: 60%;
+    padding: 1em;
+}
+
+div#pesquisar{
+    transform: translateY(-50%);
+}
+
+div#pesquisar input[type="text"]{
+    width: 100%;
+    max-width: 300px;
+    padding: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.877);
+    background-color: #EEEEEE;
+}
+
+div#pesquisar input[type="submit"]{
+    border: none;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+section#bloco2{
+    flex: 20%;
+}
+
+div#popular_posts h1{
+    font-size: 1em;
+    outline: 0.5em solid black;
+    color: white;
+    background-color: black;
+    margin-bottom: 1em;
+}
+
+div.banners{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px auto;
+    background-color: gray;
+    height: 190px;
+    max-width: 210px;
+    border-radius: 5px;
+}
