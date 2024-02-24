@@ -3,6 +3,19 @@
     nav{
         padding: 0;
     }
+
+    nav>#hamburguer{
+        padding: 1em;
+        display: block;
+        text-align: center;
+        background-color: #EBFBFF;
+        color: black;
+        cursor: pointer;
+    }
+
+    #hamburguer:hover{
+        background-color: white;
+    }
     
     nav a{
         display: block;
