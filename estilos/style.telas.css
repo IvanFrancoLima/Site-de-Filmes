@@ -20,8 +20,14 @@
     #hamburguer:hover{
         background-color: white;
     }
+
+    menu#caminhos{
+        padding: 0;
+    }
     
     nav a{
+        border: none;
+        margin: 0;
         display: block;
     }
 
